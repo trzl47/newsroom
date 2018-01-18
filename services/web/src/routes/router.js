@@ -1,12 +1,12 @@
 // Components
-import Newsroom from '../app/Newsroom.js';
+import Main from '../app/Main.js';
 import NotFound from '../app/NotFound';
 
 export default {
 	routes: [
 		{
 			path: '/',
-			component: Newsroom,
+			component: Main,
 			exact: true
 		},
 		{
